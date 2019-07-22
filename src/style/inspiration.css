@@ -1,0 +1,143 @@
+.inspiration{
+    background-image:url("../image/inspiration.jpg");
+    vertical-align: middle;
+    height: 1258px;
+    background-repeat: no-repeat;
+    background-position: 48.19% 15.22%;
+    background-size: 100%;
+    background-color: transparent;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding-top:20%;
+    padding-bottom:20%;
+
+}
+
+.inspiration-text-1{
+    
+    font-weight: 400 !important;
+    font-size:80px;
+   
+}
+.inspiration-text-2{
+    
+    color:#8d2424;
+    font-size: x-large;
+    margin-top:25%
+}
+
+.inspiration-content{
+    width:100%;
+    height:600px;
+    color:white;
+    padding-left:18%;
+    padding-right:18%
+    
+}
+.content-top{
+    width:100%;
+    height:400px;
+}
+.content-top-left{
+    width:22%;
+    float:left;
+    padding-top:5%
+}
+.content-top-center{
+    width: 30%;
+    float:left;
+    padding-top:5%
+}
+.content-top-right{
+    width:35%;
+    float:left;
+    padding-top:10%;
+    margin-left:3%;
+}
+
+ul{
+    list-style: inherit !important;
+}
+
+li{
+    width:100%
+}
+
+.content-choice{
+    width:100%;
+    text-align: left;
+    margin-left:25%
+}
+
+.content-middle{
+    width:100%;
+    height:150px;
+    line-height: 26px
+}
+.activator{
+    height:100px;
+    text-align:center;
+}
+
+.activator img{
+    height:100%;
+    max-width:25%
+}
+.activator p{
+    float: right;
+    margin-top:5%;
+    font-size:250%
+}
+
+.founder-text{
+    font-size:250%
+}
+.guide-text{
+    font-size:250%
+}
+
+.origin-story{
+    float:right; 
+    font-size:50px;
+}
+
+.origin-story-bottom{
+     height:120px
+}
+@media only screen and (max-width: 768px){
+    .inspiration-text-2{
+        font-size: 30px
+    }
+    .content-top-center{
+        width:100%
+    }
+    .content-top-right{
+        width:100%
+    }
+    .content-top-left{
+        width:100%
+    }
+    .inspiration-text-1{
+        font-size: 50px
+    }
+    .origin-story{
+        font-size:28px;
+    }
+    .origin-story-bottom{
+        height:30px
+    }
+    .founder-text{
+        font-size: 150%
+    }
+    .guide-text{
+        font-size: 150%
+    }
+
+    .activator img{
+        max-width:100%
+    }
+    .content-choice{
+        margin-left:0
+    }
+}

@@ -1,0 +1,28 @@
+.menucontainer {
+	padding-left: 20px;
+	padding-top: 20px;
+	border-right: 1px solid lightgrey;
+	height: calc(100vh - ( 3.25rem - .75rem ) );
+}
+
+.submenu {
+	margin-top: 1em;
+	height:25%
+}
+
+
+a.is-active {
+	background-color: rgb(45, 49, 52) !important;
+}
+.menu-list{
+	float: right;
+}
+
+.menu-list{
+	float:none !important;
+}
+@media only screen and (max-width:768px){
+    .menu-list{
+		float: none !important;
+	}
+}

@@ -1,0 +1,212 @@
+.revine-title {
+	font-weight: bold;
+	color: #34495e;
+	font-size: 20px;
+	opacity: 0;
+}
+
+.navbar {
+	background-color: black;
+	position: fixed;
+	width:100%;
+	/* border-bottom: 0.5px solid gray; */
+	height:85px;
+	font-weight:700;
+	transition: 1s ease-in;
+	-webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    -ms-transition: 1s ease;
+}
+
+.is-active{
+	border: 2px solid white !important;
+}
+
+/* The animation code */
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+ .buttons .button {
+	background-color:transparent !important;
+	color:white;
+	border-radius: 0;
+	font-size:12px;
+	transition: 2s ease-in !important;
+	-webkit-transition: 2s ease !important;
+	-moz-transition: 2s ease !important;
+	-o-transition: 2s ease !important;
+	-ms-transition: 2s ease !important;
+	animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+.sub-menu {
+	padding: 2px;
+	font-size: 12px !important;
+}
+
+.button span{
+	color:white
+}
+.navbar .button:hover{
+	opacity: 0.7;
+	background-color:black;
+	color:gray;
+	border:2px, solid, white !important;
+	border-color:white
+}
+
+.navbar .button:active{
+	background-color:black;
+	color:white;
+	border:1px, solid, white;
+}
+
+button:hover{
+	opacity: 0.7;
+	background-color:black;
+	color:white;
+	border:2px, solid, white !important;
+	border-color:white
+}
+
+
+
+.passport-child{
+	border: 2px solid white;
+    position: absolute;
+    top: 40px;
+    left: 1%;
+    color: white;
+    width: 150%;
+    padding: 3px;
+    display: none;
+    height: 85px;
+	line-height: 2;
+	transition: all 2s linear;
+	opacity:1
+	
+}
+
+.passport-child ul{
+	width:100%;
+	color:white;
+	list-style: none !important;
+	margin:0;
+	/* border: 0.8px solid white;
+    margin-top: 10px;
+    padding: 5px; */
+}
+
+.passport-child ul li{
+	width:100%;
+	margin:0;
+	color:white;
+	text-align: center
+}
+
+.passport-child ul li:hover{
+	background-color:gray
+}
+
+.passport-child ul li a span{
+	
+	color:white;
+	font-size:15px
+}
+
+/* .passport-child ul li a span:hover{
+	
+	color:white;
+	font-size:15px;
+	background-color:black;
+	opacity:0.7
+} */
+
+.passport-child ul li a{
+	
+	color:white
+}
+
+.passport-hidden{
+	display:block
+}
+
+.smart{
+	position: absolute;
+    top: 23%;
+    left: 63%;
+    background-color:transparent;
+    width: 171px;
+	height: 45px;
+	z-index:15;
+	cursor: pointer;
+	
+}
+
+.smart:hover{
+	border:0.7px solid white;
+}
+
+
+@media only screen and (max-width:768px){
+	.navbar{
+		/* height:1500px; */
+		border:0;
+		padding-top:22% !important;
+	}
+
+	.navbar-brand a.navbar-item{
+		display:none;
+		text-align: center;
+	}
+	.navbar-brand a.navbar-burger{
+		
+		width: 100%;
+		position: fixed;
+		top: 0;
+		background-color:black
+	}
+	.navbar-brand a.navbar-burger span{
+		color:white
+	}
+	.navbar-menu{
+		background-color:transparent !important;
+		display:block;
+
+	}
+	.buttons{
+		display:block;
+		margin-right:3%
+	}
+	.buttons a, button{
+		width:100%
+	}
+
+	.mobile-list{
+		display:block
+	}
+	.passport-child{
+		display:none;
+		top:-96px;
+		left:0;
+		width:100%;
+		background-color:black;
+		font-weight: bold;
+		z-index:10;
+
+	}
+}
+
+
+
+@media screen and (max-width: 1087px){
+	.navbar-menu {
+		background-color: #000000;
+		box-shadow: 0 8px 16px rgba(10,10,10,.1);
+		padding: .5rem 0;
+	}
+}

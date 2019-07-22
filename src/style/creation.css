@@ -1,0 +1,412 @@
+.creation {
+    width:100%;
+    background: url('../image/1283421672.png');
+    height:841px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:white
+    
+}
+
+.creation h4{
+   
+    position: relative;
+    margin-top: -35%; 
+    float:right;
+
+}
+
+.creation .bona{
+    /* margin-bottom:30% !important; */
+    margin-top:45% !important;
+    color:rgb(141, 36, 36) !important;
+    font-size: 50px
+}
+.requin{
+    color:white;
+    font-size:50px;
+}
+.requin-2019{
+    color:white
+}
+.interation-title{
+    color:rgb(141, 36, 36);
+    margin-left:25%;
+}
+.interation-content{
+    color:white;
+    width:85%
+}
+.gray{
+
+    height:100%;
+    text-align: center;
+    padding-right: 20%
+}
+
+.gray h2{
+    font-size:38px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Playfair Display" !important;
+    font-weight: 400 !important;
+}
+
+blockquote:before {
+    /* position: absolute; */
+    content: '\201C';
+    float: left;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: bold;
+    font-family: "Playfair Display" !important;
+    font-weight: 400 !important;
+}
+
+.insteration-td{
+    width:50%;
+    color:white;
+    padding-top:2%
+    
+}
+
+.the-value-img img{
+    width:340px;
+}
+
+
+.demovideo img{
+    width:340px;
+    height:inherit
+
+}
+.creation-trailer a:hover{
+    color:black
+}
+
+.play{
+    color:white;
+    font-size: 150%
+}
+
+
+@media only screen and (max-width: 767px){
+.insteration-td {
+    display:block;
+    width:100%
+}
+
+.creation h4{
+   
+    position: relative;
+    margin-top: -25%; 
+    float:right;
+
+}
+
+}
+
+.demovideo{
+    text-align: center;
+    height:420px;
+    color:white
+}
+
+.demovideo img{
+    width:340px;
+    height:inherit
+
+}
+
+@media only screen and (max-width: 767px){
+    /* .demovideo img {
+        height:inherit;
+        width:83%
+    } */
+    .demovideo{
+        height:150px
+    }
+    .backspace{
+        height:"40px";
+        display:none
+    }
+    .the-value-content{
+        width:100%;
+        height:60%;
+    }
+    .the-value-img{
+        width:100%
+    }
+    .the-value-img img{
+        width:340px;
+    }
+}
+.saas-space{
+    height:150px
+}
+.the-value h2{
+    color:white
+}
+.sass{
+    width:100%;
+    color:white;
+    margin-top:3%;
+    height:450px
+}
+.the-value-content{
+    width:50%;
+    height:inherit;
+    float:left;
+    padding-right:5%;
+    margin-top:3%
+}
+.the-value-img{
+    width:50%;
+    height:inherit;
+    float:right;
+    margin-top:3%;
+    text-align: center
+}
+.list{
+    margin-top:2%;
+    margin-left:5%;
+    background-color: black
+}
+
+@media only screen and (max-width: 768px){
+    .the-value-content{
+        width:100%;
+        height:60%
+    }
+    .the-value-img{
+        width:100%
+    }
+    .the-value-img img{
+        width:340px;
+        display:none;
+    }
+}
+
+.industry-solution{
+    width:100%;
+    background-image: url("../image/REQUIN hat black _ red leather vest website.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+
+}
+
+.industry-left{
+    width:50%;
+    text-align: left !important;
+    float: left;
+
+}
+
+.industry-left h3{
+    text-align: left
+}
+.industry-right{
+    width:50%;
+    text-align: center;
+    float: left;
+    padding:15%
+}
+
+.industry-img{
+    height: 250px;
+    margin-top: 110px
+}
+
+.industry-img img{
+    max-width:100% ;
+    width:80%
+}
+
+.img-wrap-a{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-b{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-c{
+    width: 20%;
+    float: left;
+    height: 110px
+}
+
+.img-wrap-c img{
+    height: 20%;
+    margin-top:32%
+}
+
+.img-wrap-d{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-e{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-e img{
+    margin-top:30%
+}
+
+.img-wrap-f{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-f img{
+    margin-top:19%
+}
+
+.img-wrap-g{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-h{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-i{
+    width: 20%;
+    float: left;
+}
+
+.img-wrap-i img{
+    margin-top:15%
+}
+
+.img-wrap-j{
+    width: 20%;
+    float: right;
+}
+
+.img-wrap-j img{
+    margin-top:35%
+}
+.industry-right-img{
+    text-align: center;
+    width:100%;
+    margin-bottom:5%
+}
+
+.industry-right-img img{
+    width:50%
+}
+
+.creation-button{
+    background-color:white; 
+    width:140px;
+    height:40px; 
+    margin-top:45px; 
+    color:black;
+    text-align:center;
+    font-size:16px;
+}
+.creattion-button:hover{
+    background-color: black;
+    border:4px solid white;
+    color:white
+}
+
+@media only screen and (max-width: 768px){
+    
+    .industry-left{
+        width:100%
+    }
+    .industry-right{
+        width:100%
+    }
+    .industry-img img{
+        max-width:100%;
+        width:100%
+    }
+    .industry-to{
+        font-size:150%
+    }
+
+    .img-wrap-a, .img-wrap-b, 
+    .img-wrap-c, .img-wrap-d, 
+    .img-wrap-e, .img-wrap-f, 
+    .img-wrap-g, .img-wrap-h, 
+    .img-wrap-i, .img-wrap-j{
+        width:100%
+    }
+}
+
+.foot{
+    width:100%;
+    height:500px;
+    text-align: center;
+    color:white;
+    font-size: large;
+    line-height: 30px
+}
+.foot img{
+    width:180px;
+    height:200px;
+}
+
+.foot-content{
+    width:100%;
+    height:100%;
+    padding-right:17%;
+    padding-left:17%
+    
+}
+.foot .portal{
+    float: left;
+    width:30%;
+    height:100%;
+    margin-left:5%
+}
+
+.foot .portal_2{
+    float: left;
+    width:28%;
+    height:100%
+}
+.foot .requin_logo{
+    float: left;
+    width:30%;
+    height:100%
+}
+
+.gray{
+    width:80%
+}
+@media only screen and (max-width: 768px){
+    
+    .foot .portal{
+        width:100%;
+    }
+    .foot .portal_2{
+        width:100%
+    }
+    .foot .requin_logo{
+        width:100%
+    }
+    .foot img{
+        width:220px;
+        height:50%
+    }
+    .creation .bona{
+        font-size:30px
+    }
+    .gray{
+        width:100%
+    }
+    
+}

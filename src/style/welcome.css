@@ -1,0 +1,39 @@
+.background {
+	background: url("https://files.slack.com/files-tmb/TGZG5BR55-FKE87P47R-e580630938/requin_landing_page_background_720.png") no-repeat;
+	background-size: 100%;
+	height: calc(100vh - 59px);
+}
+
+.logo-container {
+	height: 100%;
+}
+
+.revine-logo {
+	width: 70%;
+	height: 100%;
+}
+
+.foot-gray{
+	height:200px;
+	background-color:"gray"
+}
+
+.welcome{
+	background-color:black;
+	text-align: center;
+	height:150%
+}
+
+.welcome img{
+	margin-top: 10%
+}
+
+@media only screen and (max-width:768px){
+	.welcome .revine-logo{
+		width:100%;
+		height:100%;
+		margin-top: 32% !important;
+		padding-top: 32% !important;
+
+	}
+}

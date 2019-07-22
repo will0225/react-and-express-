@@ -1,0 +1,9 @@
+export const AUTH_USER = 'auth_user';
+export const UNAUTH_USER = 'unauth_user';
+export const AUTH_ERROR = 'auth_error';
+export const FETCH_FEATURE = 'fetch_feature';
+export const USER_ADMIN = "user_admin";
+export const USER_BRAND_ADMIN = "user_brand_admin";
+export const USER_STORE_MANAGER = "user_store_manager";
+export const USER_SALEPERSON = "user_saleperson";
+export const USER_NOTHING = "user_is_nothing";

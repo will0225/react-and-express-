@@ -1,0 +1,20 @@
+.main-container {
+	/* background-image: url("https://webgradients.com/public/webgradients_png/041%20Happy%20Acid.png"); */
+	background-color:black;
+}
+
+.main-container input:hover{
+	/* background-image: url("https://webgradients.com/public/webgradients_png/041%20Happy%20Acid.png"); */
+	background-color:white;
+}
+
+.authcontainer {
+	background-color: white;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.signinbutton {
+	margin-top: 15px;
+	line-height: 0 !important;
+}

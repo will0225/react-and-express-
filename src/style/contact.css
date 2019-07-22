@@ -1,0 +1,144 @@
+.contact{
+    background-image:url("../image/579144568.jpg");
+    vertical-align: middle;
+    height: 673px;
+    background-repeat: no-repeat;
+    background-position: 22.22% 63.17%;
+    background-size: 100%;
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+    padding-top:20%;
+    padding-bottom:20%;
+    opacity: 0.8;
+
+}
+
+.contact-content-right input {
+    width: 80% !important;
+}
+
+.form-control {
+    width: 80% !important;
+}
+
+.box {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-text{
+    
+    font-weight: 400 !important;
+    font-size:80px
+}
+
+.contact-content{
+    width:100%;
+    height:600px;
+    color:white;
+    
+}
+
+.lastname{
+   margin-left: 17px
+}
+.contact-content-left{
+    width:50%;
+    float:left;
+    padding-top:5%;
+    padding-left:18%
+}
+
+.contact-content-right{
+    width:50%;
+    float:left;
+    padding-top:5%;
+    padding-left:5%
+}
+.content-left-touch{
+    font-size: 40px;
+    color:white;
+
+}
+
+.contact-content-block{
+    height:300px;
+    background-color:#222222;
+    text-align: center;
+    font-size:250%;
+    padding:10%;
+    font-family: "Playfair Display"
+}
+
+.contact-content-block p{
+    font-size:xx-large
+}
+
+.contact-content-right input, textarea, button{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    border-radius: 0;
+    transition: all 300ms ease;
+    height: auto;
+    width:auto;
+    /* max-width: 370px; */
+    padding: 10px 20px !important;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    
+}
+
+input:hover, textarea:hover{
+    background-color:#222222
+}
+
+#email-1, #textarea-1{
+    width:445px
+}
+
+@media only screen and (max-width: 768px){
+    .contact-content-right{
+        width:100%;
+        padding:5%;
+        text-align: center
+    }
+    .contact-content-left{
+        width:100%;
+        padding:5%
+    }
+    .contact-content-block{
+        font-size: 150%;
+        height:200px
+    }
+    .contact-text{
+        margin-top:50%;
+        font-size:300%
+    }
+    .contact-content-right input{
+        width:100%;
+    }
+    #email-1, #textarea-1{
+        width:100%
+    }
+
+}
+
+@media only screen and (max-width: 1550px){
+    
+    .contact-content-block{
+        font-size: 150%;
+        height:351px;
+    }
+
+    .lastname{
+        margin: 0
+    }
+
+}

@@ -1,0 +1,13 @@
+.storecontainer {
+	margin-top: 0.25rem;
+}
+
+.newstore {
+	height: 100%;
+}
+
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

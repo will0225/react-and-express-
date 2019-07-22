@@ -1,0 +1,110 @@
+.customer-logo{
+    width:100%;
+    height:100%
+}
+.customer{
+    background:url("../image/Black metal waves.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:620px;
+    text-align: center;
+    padding:10%
+
+}
+
+.customer-banner-center{
+    background-color: black;
+    float: left;
+    width:60%;
+    height: 320px
+}
+
+.customer-banner-left{
+    background-color:transparent;
+    float: left;
+    width:20%;
+    padding:5%
+}
+
+.customer-banner-right{
+    background-color:transparent;
+    float: right;
+    width:20%;
+    padding:5%
+}
+
+.customer img{
+    
+    border-width:1px;
+    border-style:solid;
+    padding:5px;
+    border-color:black
+
+}
+
+.customer-content img{
+    margin-right:60%
+}
+
+@media only screen and (max-width:768px){
+    .customer-banner-left{
+        width:55%;
+        float:right
+        
+    }
+    .customer-banner-center{
+        width:100%;
+        height:150px;
+
+    }
+    .customer-banner-right{
+        width:55%;
+        float:left;
+    }
+    .customer{
+        height:500px
+    }
+    .customer-content img{
+        width:100%;
+    }
+}
+
+.customer-content{
+    text-align: center;
+    padding-left: 15%;
+    padding-right:15%;
+    color:white;
+    font-size:17px
+}
+
+.customer-content img{
+    width:40%
+}
+
+@media only screen and (max-width:768px){
+    .customer-banner-left{
+        width:55%;
+        float:right
+        
+    }
+    .customer-banner-center{
+        width:100%;
+        height:150px;
+
+    }
+    .customer-banner-right{
+        width:55%;
+        float:left;
+    }
+    .customer{
+        height:500px;
+        display:none;
+
+    }
+    .customer-content{
+        margin-top:80px
+    }
+    .customer-content img{
+        width:100%;
+    }
+}
